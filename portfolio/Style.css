@@ -1,0 +1,37 @@
+h2 {
+    background : antiquewhite;
+    border-width:10px;
+    border-top: 5px solid darkred;
+}
+
+nav a {
+    color:saddlebrown;
+}
+nav a:hover {
+    color: burlywood;
+}
+p {
+    line-height:1.6;
+    text-wrap: pretty;
+}
+h1,h2{
+    text-wrap: balance;
+}
+.yes {
+    color: darkslateblue;
+    text-align: center;
+
+}
+footer p {
+    color: darkslateblue;
+    text-align: center;
+}
+body {
+background-image: url("./img/logo.jpeg");
+background-repeat: no-repeat;
+background-position: center bottom;
+    background: linear-gradient(black,antiquewhite);
+}
+h1{
+    box-shadow: 10px 10px 0px   darkgray;
+}
