@@ -1,13 +1,13 @@
 h2 {
-    background : antiquewhite;
+    background :navy;
     border-width:10px;
     border-top: 5px solid darkred;
 }
 
-nav a {
-    color:saddlebrown;
+.lien {
+    color:darkred;
 }
-nav a:hover {
+.lien :hover {
     color: burlywood;
 }
 p {
@@ -18,20 +18,33 @@ h1,h2{
     text-wrap: balance;
 }
 .yes {
-    color: darkslateblue;
+    color: tan;
     text-align: center;
 
 }
 footer p {
-    color: darkslateblue;
+    color: tan;
     text-align: center;
 }
 body {
+    color: navy;
 background-image: url("./img/logo.jpeg");
 background-repeat: no-repeat;
 background-position: center bottom;
-    background: linear-gradient(black,antiquewhite);
+    background: mintcream;
 }
 h1{
-    box-shadow: 10px 10px 0px   darkgray;
+    box-shadow: 10px 10px 0px   darkred;
+}
+.profil{
+    width: 300px;
+    height: 400px;
+    border-radius:15px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.3);
+
+}
+table{
+    background:tan;
+    color: mintcream;
+
 }
