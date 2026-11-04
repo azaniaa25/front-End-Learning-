@@ -68,5 +68,43 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #F5F0E8;
 }
+/* NAVBAR */
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 20px 8%;
+    background-color: #f5eee6;
+    border-top: #B88A65 30px}
+
+/* LOGO */
+
+.log a {
+    text-decoration: none;
+    color: #754c38;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* NAVIGATION LINKS */
+
+.link {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.link a {
+    text-decoration: none;
+    color: #754c38;
+    font-size: 17px;
+}
+
+.link a:hover {
+    color: #c28b65;
+}
 
 
