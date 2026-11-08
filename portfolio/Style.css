@@ -107,4 +107,26 @@ tr:nth-child(odd) {
     color: #c28b65;
 }
 
+.Divi {
+   display: flex  ;
+
+}
+
+.partie1,
+.partie2 {
+   color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.partie1{
+    background: #35251F;
+}
+.partie2{
+    background: #654735;
+}
+
+
+
+
 
