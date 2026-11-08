@@ -108,12 +108,23 @@ tr:nth-child(odd) {
 }
 
 .Divi {
-   display: flex  ;
+   display: inline-flex  ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background:white;
+    height:250px;
+    width: 300px;
+    gap: 10px 20px;
+    flex-flow: column wrap;
+
 
 }
 
 .partie1,
-.partie2 {
+.partie2,
+.partie4,
+.partie5,
+.partie6{
    color: white;
     width: 100px;
     height: 100px;
@@ -121,10 +132,22 @@ tr:nth-child(odd) {
 
 .partie1{
     background: #35251F;
+    ;
 }
 .partie2{
     background: #654735;
+
 }
+.partie5{
+    background: #c28b65;}
+.partie4{
+    background: #754c38;}
+.partie6{
+    background: #654735;}
+.partie2{
+    flex-shrink:1.5 ;
+}
+
 
 
 
