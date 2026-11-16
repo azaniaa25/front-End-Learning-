@@ -6,6 +6,12 @@
 .lien :hover {
     color: darkred;
 }
+.container{
+    max-width: 1120px;
+    padding-inline: 1rem;
+    margin-inline: auto;
+
+}
 p {
     line-height:1.6;
     text-wrap: pretty;
@@ -147,6 +153,8 @@ tr:nth-child(odd) {
 .partie2{
     flex-shrink:1.50 ;
 }
+
+
 
 
 
