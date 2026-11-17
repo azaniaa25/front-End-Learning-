@@ -6,6 +6,17 @@
 .lien:hover{
     color: darkred;
 }
+.navi {
+    gap: 24px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: #664a38;
+    text-decoration: none;
+    margin-right: auto;
+}
 .hero {
     display: flex;
     flex-wrap: wrap;
