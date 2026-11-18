@@ -164,7 +164,8 @@ body {
     .chips {
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 12px;
+        margin-bottom: 24px;
     }
 
     .chip {
@@ -172,6 +173,9 @@ body {
         color: #664a38;
         border: 1px solid #664a38;
         border-radius: 999px;
+        padding: 6px 18px;
+        font-size: 1rem;
+        line-height: 1.2;
     }
 
     .chip.dark {
